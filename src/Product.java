@@ -31,6 +31,11 @@ abstract class Product {
 
     abstract double getDiscount();
 
+     //extra method
+     abstract String Use();
+
+     abstract String productCategory();
+
     @Override
     public String toString() {
         return "name: " + name + ", price=" + price ;

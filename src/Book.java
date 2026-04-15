@@ -24,6 +24,17 @@ public class Book extends Product{
         return super.getPrice()*20/100;
     }
 
+    //extra methods
+    @Override
+    public String Use() {
+        return "The User Read the book";
+    }
+
+    @Override
+    String productCategory() {
+        return "Books";
+    }
+
     @Override
     public String toString() {
         return "Book{"+super.toString() + " Author:" + author+'}' ;

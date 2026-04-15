@@ -24,6 +24,17 @@ public class Movie extends Product{
         return super.getPrice()*50/100;
     }
 
+    //extra methods
+    @Override
+    public String Use() {
+        return "The User watch the movie";
+    }
+
+    @Override
+    String productCategory() {
+        return "Movies";
+    }
+
     @Override
     public String toString() {
         return "Movie{"+super.toString() +" director='" + director +'}';

@@ -19,6 +19,11 @@ void main() {
     System.out.println("The discount by 20% for the book is ");
     System.out.println(book1.getDiscount());
     System.out.println("Final price:"+(book1.getPrice() - book1.getDiscount()));
+    System.out.println("The Use of this product ");
+    System.out.println(book1.Use());
+    System.out.println("The category of this product: "+book1.productCategory());
+
+
 
 
 
@@ -38,10 +43,15 @@ void main() {
 
     System.out.println("The discount by 50% for "+movie1.getName() +" movie is ");
     System.out.println(movie1.getDiscount());
+    //getters
     System.out.println("Final price:"+(movie1.getPrice() - movie1.getDiscount()));
+    System.out.println("The Use of this product ");
+    System.out.println(movie1.Use());
+    System.out.println("The category of this product: "+movie1.productCategory());
 
 
-    System.out.println("=======================Testing MovablePoint class=======================");
+
+    System.out.println("\n=======================Testing MovablePoint class=======================");
 
     MovablePoint point = new MovablePoint(10, 10, 3, 3);
 
