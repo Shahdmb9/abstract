@@ -54,9 +54,7 @@ public class MovablePoint implements Movable{
         this.xSpeed = xSpeed;
     }
 
-    public void setxSpeed(int ySpeed) {
-        this.ySpeed = ySpeed;
-    }
+    
 
 
     public void moveUp(){
